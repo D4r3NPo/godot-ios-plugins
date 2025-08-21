@@ -35,6 +35,7 @@
 #include "servers/camera_server.h"
 
 class CameraIOS : public CameraServer {
+
 private:
 public:
 	CameraIOS();
