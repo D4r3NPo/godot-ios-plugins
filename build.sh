@@ -1,8 +1,8 @@
 #!/bin/zsh
 # set -e
 
-MODULES=("apn" "camera" "gamecenter" "inappstore" "photo_picker")
-MOD="release" # <release|debug|release_debug>
+MODULES=("apn" "gamecenter" "inappstore" "photo_picker")
+MOD="debug" # <release|debug|release_debug>
 VERSION="4.0" # <3.0|4.0>
 
 for MODULE in "${MODULES[@]}"; do	# Compile static libraries
