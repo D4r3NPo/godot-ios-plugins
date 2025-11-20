@@ -36,7 +36,7 @@
 #if VERSION_MAJOR == 4
 #if VERSION_MINOR == 5
 #import "drivers/apple_embedded/godot_app_delegate.h"
-#import "drivers/apple_embedded/view_controller.h"
+#import "drivers/apple_embedded/godot_view_controller.h"
 #else
 #import "platform/ios/app_delegate.h"
 #import "platform/ios/view_controller.h"
