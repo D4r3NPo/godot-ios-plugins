@@ -15,7 +15,7 @@ for MODULE in "${MODULES[@]}"; do	# Compile static libraries
 	xcodebuild -create-xcframework -library "./bin/lib$MODULE.arm64-ios.$MOD.a" -output "./bin/$MODULE.$MOD.xcframework"
 
 	# Cleaning
-	rm ./bin/lib*.a
+	rm -f ./bin/lib*.a
 done
 
 MOD="release"
@@ -28,5 +28,5 @@ for MODULE in "${MODULES[@]}"; do	# Compile static libraries
 	xcodebuild -create-xcframework -library "./bin/lib$MODULE.arm64-ios.$MOD.a" -output "./bin/$MODULE.$MOD.xcframework"
 
 	# Cleaning
-	rm ./bin/lib*.a
+	rm -f ./bin/lib*.a
 done
